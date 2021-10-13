@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "server": "json-server server.json -w -d 750 -p 3333"
   },
   "dependencies": {
     "date-fns": "^2.25.0",
